@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langserve-serving-example"
+version = "0.1.0"
+description = ""
+authors = ["Jake Rachleff <jake@langchain.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.333"
+langsmith = "^0.0.63"
+openai = "^1.2.2"
+uvicorn = "^0.24.0.post1"
+fastapi = "^0.104.1"
+langserve = "^0.0.24"
+sse-starlette = "^1.6.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
